@@ -13,7 +13,6 @@ class Deck{
 
     function __construct(){
         $this->generateCards();
-        //$this->shuffleThe($this->cards);
         shuffle($this->cards);
     }
 
